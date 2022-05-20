@@ -1,6 +1,73 @@
 .header {
-font-family: 'Raleway', sans-serif;
-padding-left: 215px;
-font-size: 26px;
+    font-family: 'Roboto',sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.14;
+    color:#000;
   }
+  .logo{
+    font-family: 'Raleway',sans-serif;  
+    font-size: 26px;
+    color:#2196F3 ;
+  }
+  .spam{
+      color:#000;
+  }
+  /* скрываем название блока*/
+  .visually-hidden {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    border: 0;
+    padding: 0;
+    white-space: nowrap;
+    clip-path: inset(100%);
+    clip: rect(0 0 0 0);
+    overflow: hidden;
+  }
+  .navigation {
+color: #212121;
+display: flex;
+list-style: none;}
+
+.navigation-item {
+    word-spacing: 50px;
+}
   
+  .contacts{
+    display: flex;
+    list-style: none;
+  }
+    .phone{
+        color: #757575;
+    }
+  
+.bisnes{
+    position: absolute;
+/* width: 696px;
+height: 120px;
+left: 452px;
+top: 280px; */
+   background-color: #2F303A;
+   font-family: 'Roboto';
+font-style: normal;
+font-weight: 900;
+font-size: 44px;
+line-height: 1.36;
+text-align: center;
+text-transform: uppercase;
+
+color: #FFFFFF;
+
+}
+.about-work{
+    display: flex;
+    list-style: none;
+    /* position: absolute; */
+width: 1170px;
+/* height: 386px;
+left: 215px;
+top: 969px; */
+}
