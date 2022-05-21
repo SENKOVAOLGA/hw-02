@@ -17,6 +17,7 @@
     line-height: 1.2;
     letter-spacing: 0.03em;
     color:#2196F3 ;
+    text-decoration: none;
   }
   .spam{
       color:#000;
@@ -46,18 +47,26 @@
   .contacts,
   .portfolio-items{
   display: flex;
-  list-style: none;}
+  list-style: none;
+  }
 
 .navigation-item {
     color: #000;
+    text-decoration: none;
 }
   .navigation-item:hover,
   .navigation-item:focus{
     color: #2196F3;
   }
+  .mail{
+    text-decoration: none;
+    color:#000;
+
+  }
   
       .phone{
         color: #757575;
+        text-decoration: none;
     }
   
     .bisnes{
@@ -122,6 +131,7 @@ color: #757575;
 }
 .footer{
 background: #2F303A;
+
 }
 .adres{
  font-weight: 400;
@@ -129,11 +139,13 @@ font-size: 14px;
 line-height: 1.71;
 letter-spacing: 0.03em;
 color: #FFFFFF;
+text-decoration: none;
 
 }
 .mail-footer,
 .phone-footer{
   color: rgba(255, 255, 255, 0.6);
+  text-decoration: none;
 
 }
 .list{
